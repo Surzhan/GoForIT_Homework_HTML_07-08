@@ -15,10 +15,6 @@
 }
 
 body {
-	background-color: #724f81;
-	background-image: url(../img/fon.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 16px;
 	color: #787878;
@@ -32,23 +28,82 @@ ul {
 }
 
 header {
-
+	height: 800px;
+	background-color: #724f81;
+	background-image: url(../img/fon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.wrapper {
+.conteiner {
 	width: 960px;
 	margin: 0 auto;
 }
 
 .logo {
-	font-family: "League Gothic Regular", Arial, sans-serif;
-	font-size: 48px;
-	color: white;
+
 }
 
 .logo span {
 	color: #724f81;
 }
-.about {
+
+.slider__title {
+	font-family: "League Gothic Regular", Arial, sans-serif;
+	font-size: 60px;
+	color: #fefefe;
+}
+
+.slider--header {
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.info-block {
 	height: 340px;
+	background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+	font-size: 0;
+}
+
+.info-block__column-1,
+.info-block__column-2,
+.info-block__column-3 {
+	display: inline-block;
+	vertical-align: top;
+	width: 33.333333333336%;
+	font-size: 16px;
+}
+
+.info-block__column-1--central,
+.info-block__column-2--central {
+	width: 50%;
+}
+
+.info-block--central {
+	height: 486px;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #e6e6e6;
+	background-image: none;
+}
+
+.partner-company-logo {
+	height: 118px;
+	background-color: #f9f9f9;
+	border-top: 1px solid #fefefe;
+	border-bottom: 1px solid #fefefe;
+}
+
+.info-block--recent {
+	height: 396px;
+	border-top: 1px solid #d8d8d8;
+	background-color: #ececec;
+	background-image: none;
+}
+
+footer {
+	height: 114px;
+	background-color: #999;
+	background-image: url(../img/fon-footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
