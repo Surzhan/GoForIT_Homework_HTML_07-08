@@ -1,0 +1,40 @@
+.ico_icon-wrench, .ico_icon-note, .ico_icon-cloud {
+  display: inline-block;
+  background-image: url(../img/icon-sprite.png);
+  background-repeat: no-repeat
+}
+
+.ico_icon-wrench {
+  background-position: -0px -0px;
+  height: 31px;
+  width: 30px
+}
+
+.ico_icon-note {
+  background-position: -30px -0px;
+  height: 31px;
+  width: 29px
+}
+
+.ico_icon-cloud {
+  background-position: -59px -0px;
+  height: 29px;
+  width: 33px
+}
+
+.info-block__column-1 i,
+.info-block__column-2 i,
+.info-block__column-3 i {
+  position: absolute;
+  top: 82px;
+  left: 9px;
+}
+
+.info-block__column-2 i {
+  top: 84px;
+  left: 27px;
+}
+
+.info-block__column-3 i {
+  left: 45px;
+}

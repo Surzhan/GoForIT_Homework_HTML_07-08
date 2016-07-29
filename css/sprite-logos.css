@@ -1,0 +1,42 @@
+.ico_icon-rvca, .ico_icon-vonzipper, .ico_icon-dg, .ico_icon-billabong, .ico_icon-tree, .ico_icon-awsm {
+  display: inline-block;
+  background-image: url(../img/sprite-logos.png);
+  background-repeat: no-repeat
+}
+
+.ico_icon-rvca {
+  background-position: -268px -0px;
+  height: 65px;
+  width: 102px
+}
+
+.ico_icon-vonzipper {
+  background-position: -374px -0px;
+  height: 65px;
+  width: 78px
+}
+
+.ico_icon-dg {
+  background-position: -72px -1px;
+  height: 65px;
+  width: 72px
+}
+
+.ico_icon-billabong {
+  background-position: -0px -1px;
+  height: 65px;
+  width: 69px
+}
+
+.ico_icon-tree {
+  background-position: -148px -0px;
+  height: 65px;
+  width: 65px
+}
+
+.ico_icon-awsm {
+  background-position: -216px -1px;
+  height: 65px;
+  width: 50px
+}
+

@@ -134,8 +134,12 @@ header {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
-.slider__radio--header {
+.slider__radio {
 	position: absolute;
+}
+
+
+.slider__radio--header {
 	top: 780px;
 	left: 1500px;
 }
@@ -165,14 +169,22 @@ header {
 	width: 223px;
 }
 
+.info-block__column-2 .info-block__block {
+	margin-left: 83px;
+}
+
+.info-block__column-3 .info-block__block {
+	margin-left: 100px;
+}
+
 .info-block__text {
-	max-height: 117px;
-	margin-bottom: 20px;
+	max-height: 118px;
+	margin-bottom: 19px;
 	line-height: 24px;
 	overflow: hidden;
 	font-size: 16px;
 	font-weight: 300;
-	letter-spacing: -0.03em;
+	letter-spacing: -0.025em;
 	text-shadow: 0.5px 0.9px 0 #0f1518;
 	color: white;
 }
@@ -199,6 +211,7 @@ header {
 .info-block__column-1,
 .info-block__column-2,
 .info-block__column-3 {
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
 	width: 33.333333333336%;
@@ -236,20 +249,36 @@ header {
 	border-right: 20px solid white;
 }
 
+.slider__img--central {
+	top: 18px;
+	left: -25px;
+}
 
 .slider__subtitle--central {
-	padding-top: 33px;
-	padding-left: 40px;
+	padding-top: 32px;
+	padding-bottom: 12px;
+	padding-left: 39px;
+	text-shadow: 0.5px 0.9px 0 white;
+	font-size: 30px;
+	line-height: 24px;
 }
 
 .slider__subtitle--central span {
 	color: #454545;
 }
 
-.slider__text--center {
+.slider__slide-1--central .slider__text--center {
+	width: 346px;
 	padding-left: 40px;
-	letter-spacing: -0.03em;
+	text-shadow: 0.5px 0.9px 0 white;
+	font-size: 16px;
+	line-height: 24px;
 	color: #454545;
+}
+
+.slider__radio--central {
+	top: 295px;
+	left: 180px;
 }
 
 .partner-company-logo {
@@ -257,6 +286,18 @@ header {
 	background-color: #f9f9f9;
 	border-top: 1px solid #fefefe;
 	border-bottom: 1px solid #fefefe;
+}
+
+.conteiner--partner-logo {
+	padding-top: 24px;
+	padding-left: 186px;
+}
+
+.partner-company-logo a {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 62px;
+	line-height: 118px;
 }
 
 .info-block--recent {
@@ -271,25 +312,90 @@ header {
 }
 
 .info-block__title--recent {
-	margin-top: 99px;
+	margin-bottom: 21px;
+	margin-left: 29px;
 	text-shadow: 0.5px 0.9px 0 white;
 	color: #454545;
 }
 
+.info-block__column-2--central .info-block__title--recent {
+	margin-top: 131px;
+}
+
+.recent-block {
+	position: relative;
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+.recent-block__title {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-shadow: 0.5px 0.9px 0 white;
+	color: #454545;
+}
+
+.recent-block__text {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+	letter-spacing: -0.02em;
+	text-shadow: 0.5px 0.9px 0 white;
+	color: #454545;
+}
+
+.recent-block__img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 29px;
+	margin-right: 18px;
+	background-image: url(../img/texture-fon.jpg);
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
+
+.recent-block__img {
+	background-position: -175px -28px;
+}
+
+.recent-block__img--1 {
+	background-position: -156px -90px;
+}
+
+.recent-block__img--2 {
+	background-position: -89px -108px;
+}
+
+.info-block__btn--link {
+	margin-right: 23px;
+	text-decoration: none;
+	text-shadow: 0.5px 0.9px 0 white;
+	color: #454545;
+}
+
+.info-block__btn--link:hover {
+	text-shadow: 0 0 8px rgba(69, 69, 69, 0.8);
+}
+
 .info-block__text--recent {
-	width: 277px;
+	width: 278px;
 	max-height: 163px;
 	text-shadow: 0.5px 0.9px 0 white;
 	color: #787878;
 }
 
 .logo-recent {
-	margin-top: 99px;
-	margin-bottom: 20px;
+	margin-top: 103px;
+	margin-bottom: 16px;
 	font-family: "League Gothic Regular", Arial, sans-serif;
 	line-height: 34px;
 	font-size: 48px;
 	font-weight: 400;
+	letter-spacing: -0.015em;
 	text-transform: uppercase;
 	text-shadow: 0 1px 0 white;
 	color: #454545;
@@ -316,9 +422,23 @@ header {
 	color: #c5c5c5;
 }
 
+.info-block__title--rec-2 {
+	margin-top: 100px;
+	text-shadow: 0.5px 0.9px 0 white;
+	color: #454545;
+}
+
 .info-block__column-1 .info-block__text--recent {
 	margin-top: 5px;
 	max-height: 115px;
+}
+
+.info-block__column-2 .info-block__block--recent {
+	margin-left: 17px;
+}
+
+.info-block__column-3 .info-block__block--recent {
+	margin-left: 37px;
 }
 
 footer {
